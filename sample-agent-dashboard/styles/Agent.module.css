@@ -1,0 +1,134 @@
+/* styles/Agent.module.css */
+.pageContainer {
+  background: #f6f9fc;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 24px;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.live {
+  color: #21b573;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.leftPanel {
+  width: 54%;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.03);
+}
+
+.rightPanel {
+  width: 38%;
+}
+
+.sectionTitle {
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-bottom: 2px;
+}
+
+.sectionSubtitle {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 18px;
+}
+
+.agentStats {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.statBox {
+  text-align: center;
+}
+
+.statValue {
+  font-weight: bold;
+  font-size: 2.4em;
+  color: #2b59c3;
+}
+
+.statLabel {
+  color: #212529;
+}
+
+.chatBot {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  padding: 28px;
+  margin-top: 16px;
+}
+
+.chatTitle {
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #2b59c3;
+}
+
+.userMessage {
+  background: #2b59c3;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 18px;
+  max-width: 70%;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.messageTime {
+  font-size: 0.8em;
+  text-align: right;
+  color: #e3e3e3;
+  margin-top: 2px;
+}
+
+.botReply {
+  background: #f7fafd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.inputBox {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 8px;
+}
